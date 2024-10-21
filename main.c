@@ -5,15 +5,15 @@ int main()
 {
    const float pi =3.14;
    int r;
-   printf("donner la mesure du rayon de cercle: ");
+   printf("Geben Sie den Messwert für den Radius eines Kreises an  : ");
    scanf("%d", &r);
    while (r<=0){
-    printf("donner la mesure du rayon de cercle: ");
+    printf("Geben Sie den Messwert für den Radius eines Kreises an : ");
    scanf("%d", &r);
    }
    float s;
    s= r*r*pi;
-   printf ("l'aire du cercle est:%.2f\n", s);
+   printf ("Die fläche des Kreises ist:%.2f\n", s);
 
 
     return 0;
